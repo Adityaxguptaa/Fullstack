@@ -15,4 +15,11 @@ const element = <h1>Hello, world!</h1>;
 const l1=<li>apple</li>;
 const l2=<li>mango</li>;
 const ul=<ul>{l1}{l2}</ul>;
-root.render(ul);
+
+const container=(
+    <div style={{backgroundColor:'cyan'}}>
+        <div>{element}</div>
+        <div>{ul}</div>
+    </div>
+)
+root.render(container);
