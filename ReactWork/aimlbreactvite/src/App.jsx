@@ -34,8 +34,9 @@
 
 // export default ImageManipulation;
 
-import React from 'react'
-import Registration from './login'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import Registration from './login';
 
 const App = () => {
   return (
